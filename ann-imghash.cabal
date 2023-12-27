@@ -32,10 +32,29 @@ library
       Paths_ann_imghash
   hs-source-dirs:
       src
+  default-extensions:
+      DataKinds
+      DefaultSignatures
+      DeriveAnyClass
+      DerivingStrategies
+      DerivingVia
+      DuplicateRecordFields
+      FunctionalDependencies
+      GADTs
+      LambdaCase
+      MultiWayIf
+      OverloadedLabels
+      OverloadedRecordDot
+      OverloadedStrings
+      PackageImports
+      QuasiQuotes
+      RecordWildCards
+      StrictData
+      TypeFamilies
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable ann-imghash-exe
   main-is: Main.hs
@@ -45,11 +64,30 @@ executable ann-imghash-exe
       Paths_ann_imghash
   hs-source-dirs:
       app
+  default-extensions:
+      DataKinds
+      DefaultSignatures
+      DeriveAnyClass
+      DerivingStrategies
+      DerivingVia
+      DuplicateRecordFields
+      FunctionalDependencies
+      GADTs
+      LambdaCase
+      MultiWayIf
+      OverloadedLabels
+      OverloadedRecordDot
+      OverloadedStrings
+      PackageImports
+      QuasiQuotes
+      RecordWildCards
+      StrictData
+      TypeFamilies
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       ann-imghash
     , base >=4.7 && <5
-  default-language: Haskell2010
+  default-language: GHC2021
 
 test-suite ann-imghash-test
   type: exitcode-stdio-1.0
@@ -60,8 +98,27 @@ test-suite ann-imghash-test
       Paths_ann_imghash
   hs-source-dirs:
       test
+  default-extensions:
+      DataKinds
+      DefaultSignatures
+      DeriveAnyClass
+      DerivingStrategies
+      DerivingVia
+      DuplicateRecordFields
+      FunctionalDependencies
+      GADTs
+      LambdaCase
+      MultiWayIf
+      OverloadedLabels
+      OverloadedRecordDot
+      OverloadedStrings
+      PackageImports
+      QuasiQuotes
+      RecordWildCards
+      StrictData
+      TypeFamilies
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       ann-imghash
     , base >=4.7 && <5
-  default-language: Haskell2010
+  default-language: GHC2021
